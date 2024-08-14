@@ -1,0 +1,17 @@
+[
+    {
+        "id": "1",
+        "name": "Sell",
+        "icon":""
+    },
+    {
+        "id": "2",
+        "name": "Watchlist",
+        "icon":"<i class='bx bx-chevron-down' ></i>"
+    },
+    {
+        "id": "3",
+        "name": "My c-Bay",
+        "icon":"<i class='bx bx-chevron-down' ></i>"
+    }
+]
