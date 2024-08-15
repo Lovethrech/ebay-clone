@@ -25,9 +25,9 @@ i{
 }
 .user-icon i{
     background-color:rgb(23, 27, 23);
-    padding:10px;
-    border-radius:40px;
-    font-size: 14px;
+    padding:6px;
+    border-radius:30px;
+    font-size: 12px;
     border:2px dashed white;
 }
 .user-icon i:hover{
