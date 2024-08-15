@@ -4,14 +4,17 @@ import LogoCtn from "@/components/LogoCtn.vue";
 
 <style scoped>
 .ctn{
-    padding: 1vh 4vw;
+    padding: 1vh 7vw;
 }
 </style>
 
 <template>
     <div class="ctn">
         <div class="main-ctn">
-            <LogoCtn></LogoCtn>
+            <RouterLink to="/">
+                <LogoCtn></LogoCtn>
+            </RouterLink>
+            
         </div>
     </div>
 </template>

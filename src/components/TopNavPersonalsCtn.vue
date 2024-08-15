@@ -14,7 +14,7 @@ li{
     flex-direction:row;
     justify-content:center;
     place-items:center;
-    color:hsl(0, 0%, 100%);
+    color:hsl(0, 0%, 0%);
     font-size:10px;
 }
 li:hover{

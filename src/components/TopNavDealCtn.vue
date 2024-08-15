@@ -10,7 +10,7 @@ ul{
     gap:20px;
 }
 li{
-    color:hsl(0, 0%, 100%);
+    color:hsl(0, 0%, 0%);
     text-transform:capitalize;
     font-size:10px;
 }

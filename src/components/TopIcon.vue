@@ -5,7 +5,7 @@ import TopNavPersonalsCtn from "@/components/TopNavPersonalsCtn.vue";
 
 <style scoped>
 .ctn{
-    padding:0 4vw;
+    padding:0 7vw;
 }
 .main-ctn{
     display: flex;
@@ -13,7 +13,7 @@ import TopNavPersonalsCtn from "@/components/TopNavPersonalsCtn.vue";
     justify-content: space-between;
 }
 i{
-    color:white;
+    color:rgb(0, 0, 0);
 }
 .user-icon, .personal-ctn{
     display:flex;
@@ -24,11 +24,11 @@ i{
     gap:40px;
 }
 .user-icon i{
-    background-color:rgb(23, 27, 23);
+    background-color:rgb(255, 255, 255);
     padding:6px;
     border-radius:30px;
     font-size: 12px;
-    border:2px dashed white;
+    border:2px dashed rgb(0, 0, 0);
 }
 .user-icon i:hover{
     cursor:pointer;
@@ -52,6 +52,7 @@ i{
     transform:scale(1.2);
     transition: all .4s;
 }
+/*
 .notify-cart i:last-child{
     padding: 6px 20px;
     background-color:rgb(22, 85, 27);
@@ -65,6 +66,7 @@ i{
     transform:scaleX(1.1);
     transition: all .4s;
 }
+*/
 @media screen and (max-width:550px) {
     .notify-cart i:nth-child(1) {
         display: none;
@@ -92,7 +94,7 @@ i{
                     <i class='bx bx-bell' ></i>
                     <i class='bx bx-cart' ></i>
                     <!-- <i class='bx bx-moon' ></i> -->
-                    <i class='bx bxs-moon' style='color:#efebeb' ></i>
+                    <!-- <i class='bx bxs-moon' style='color:#efebeb' ></i> -->
                 </div>
                 
             </div>

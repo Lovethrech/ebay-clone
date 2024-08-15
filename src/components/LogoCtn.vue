@@ -1,11 +1,23 @@
 <style scoped>
 .logo-ctn{
-    width:50px;
+    width:80px;
     height:50px;
+    background-color: black;
+    padding:0 10px;
+    display:flex;
+    justify-content:center;
+    place-items:center;
+    border: 8px double rgb(255, 246, 246);
+}
+.logo-ctn:hover{
+    cursor:pointer;
+    transform: scale(1.1);
+    transition:all .4s;
 }
 .logo-ctn img{
     width:100%;
-    height:100%;
+    height:80%;
+    margin:0 30px;
 }
 </style>
 
