@@ -11,8 +11,7 @@
 }
 .logo-ctn:hover{
     cursor:pointer;
-    transform: scale(1.1);
-    transition:all .4s;
+    transition:all .4s ease-in-out;
 }
 .logo-ctn img{
     width:100%;

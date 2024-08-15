@@ -1,10 +1,17 @@
 <script setup>
 import LogoCtn from "@/components/LogoCtn.vue";
+import LogoShopTab from "@/components/LogoShopTab.vue";
 </script>
 
 <style scoped>
 .ctn{
     padding: 1vh 7vw;
+}
+.main-ctn{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:10px;
 }
 </style>
 
@@ -14,7 +21,7 @@ import LogoCtn from "@/components/LogoCtn.vue";
             <RouterLink to="/">
                 <LogoCtn></LogoCtn>
             </RouterLink>
-            
+            <LogoShopTab></LogoShopTab>
         </div>
     </div>
 </template>

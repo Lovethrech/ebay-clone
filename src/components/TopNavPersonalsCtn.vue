@@ -15,7 +15,7 @@ li{
     justify-content:center;
     place-items:center;
     color:hsl(0, 0%, 0%);
-    font-size:10px;
+    font-size:12px;
 }
 li:hover{
     cursor:pointer;

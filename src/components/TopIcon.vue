@@ -28,7 +28,7 @@ i{
     padding:6px;
     border-radius:30px;
     font-size: 12px;
-    border:2px dashed rgb(0, 0, 0);
+    border:2px dotted rgb(0, 0, 0);
 }
 .user-icon i:hover{
     cursor:pointer;
@@ -93,7 +93,6 @@ i{
                 <div class="notify-cart">
                     <i class='bx bx-bell' ></i>
                     <i class='bx bx-cart' ></i>
-                    <!-- <i class='bx bx-moon' ></i> -->
                     <!-- <i class='bx bxs-moon' style='color:#efebeb' ></i> -->
                 </div>
                 

@@ -12,7 +12,7 @@ ul{
 li{
     color:hsl(0, 0%, 0%);
     text-transform:capitalize;
-    font-size:10px;
+    font-size:12px;
 }
 li:hover{
     cursor:pointer;
