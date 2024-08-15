@@ -1,6 +1,7 @@
 <script setup>
 import LogoCtn from "@/components/LogoCtn.vue";
 import LogoShopTab from "@/components/LogoShopTab.vue";
+import SearchTab from "@/components/SearchTab.vue";
 </script>
 
 <style scoped>
@@ -11,7 +12,6 @@ import LogoShopTab from "@/components/LogoShopTab.vue";
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    gap:10px;
 }
 </style>
 
@@ -22,6 +22,7 @@ import LogoShopTab from "@/components/LogoShopTab.vue";
                 <LogoCtn></LogoCtn>
             </RouterLink>
             <LogoShopTab></LogoShopTab>
+            <SearchTab></SearchTab>
         </div>
     </div>
 </template>
