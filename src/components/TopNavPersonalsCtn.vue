@@ -15,12 +15,23 @@ li{
     justify-content:center;
     place-items:center;
     color:hsl(0, 0%, 100%);
-    font-size:12px;
+    font-size:10px;
 }
 li:hover{
     cursor:pointer;
     color:rgb(22, 202, 37);
     transition: all .6s;
+}
+
+@media screen and (max-width:970px) {
+    li:nth-child(2){
+        display:none;
+    }
+}
+@media screen and (max-width:550px) {
+    li:nth-child(1) {
+        display: none;
+    }
 }
 </style>
 

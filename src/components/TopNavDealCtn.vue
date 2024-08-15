@@ -12,12 +12,17 @@ ul{
 li{
     color:hsl(0, 0%, 100%);
     text-transform:capitalize;
-    font-size:12px;
+    font-size:10px;
 }
 li:hover{
     cursor:pointer;
     color:rgb(22, 202, 37);
     transition: all .6s;
+}
+@media screen and (max-width:750px) {
+    li:nth-child(1), li:nth-child(2), li:nth-child(4){
+        display: none;
+    }
 }
 </style>
 

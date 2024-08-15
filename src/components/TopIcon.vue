@@ -5,7 +5,6 @@ import TopNavPersonalsCtn from "@/components/TopNavPersonalsCtn.vue";
 
 <style scoped>
 .ctn{
-    
     padding:0 4vw;
 }
 .main-ctn{
@@ -22,13 +21,13 @@ i{
     justify-content: space-between;
     justify-content:center;
     place-items:center;
-    gap:60px;
+    gap:40px;
 }
 .user-icon i{
     background-color:rgb(23, 27, 23);
     padding:10px;
     border-radius:40px;
-    font-size: 16px;
+    font-size: 14px;
     border:2px dashed white;
 }
 .user-icon i:hover{
@@ -58,6 +57,7 @@ i{
     background-color:rgb(22, 85, 27);
     border-radius:20px;
     box-shadow: 0px 0px 8px 2px rgba(22, 85, 27, 0.719);
+    font-size:10px;
 }
 .notify-cart i:last-child:hover{
     cursor:pointer;
@@ -65,7 +65,14 @@ i{
     transform:scaleX(1.1);
     transition: all .4s;
 }
-
+@media screen and (max-width:550px) {
+    .notify-cart i:nth-child(1) {
+        display: none;
+    }
+    .personal-ctn{
+        gap:20px;
+    }
+}
 </style>
 
 
