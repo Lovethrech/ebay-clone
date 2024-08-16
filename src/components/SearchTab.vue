@@ -21,6 +21,12 @@
     padding:0 20px;
     border-radius:20px;
 }
+.all-cat{
+    margin-left:-135px;
+    border:2px solid black;
+    padding: 0 10px;
+    border-radius:0 20px 20px 0;
+}
 .desc{
     margin:auto 0;
 }
