@@ -6,9 +6,9 @@ import Hr from "@/components/HrS.vue";
 
 <template>
     <TopIcon></TopIcon>
-    <main>
+    <header>
         <Hr></Hr>
         <LogoHeader></LogoHeader>
         <Hr></Hr>
-    </main>
+    </header>
 </template>
