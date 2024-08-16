@@ -14,16 +14,20 @@
     display:flex;
     justify-content: center;
     place-items: center;
-    margin-right:-20px;
+    margin-right:-24px;
 }
 .main-ctn input{
     background-color:transparent;
-    padding:0 20px;
+    padding:0 28px;
     border-radius:20px;
 }
 .all-cat{
+    display:flex;
+    justify-content:center;
+    place-items: center;
     margin-left:-135px;
-    border:2px solid black;
+    border:0;
+    border-left: 1px solid rgb(163, 158, 158);
     padding: 0 10px;
     border-radius:0 20px 20px 0;
 }
