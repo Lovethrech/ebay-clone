@@ -10,18 +10,27 @@ import SearchTab from "@/components/SearchTab.vue";
 }
 .main-ctn{
     display:flex;
-    flex-direction: row;
+    flex-direction:row;
+    justify-content:space-between;
+}
+.logo-shop{
+    display:flex;
     justify-content: space-between;
+    gap:1px;
 }
 </style>
 
 <template>
     <div class="ctn">
         <div class="main-ctn">
-            <RouterLink to="/">
-                <LogoCtn></LogoCtn>
-            </RouterLink>
-            <LogoShopTab></LogoShopTab>
+            <div class="logo-shop">
+                <RouterLink to="/">
+                    <LogoCtn></LogoCtn>
+                </RouterLink>
+                <LogoShopTab></LogoShopTab>    
+            </div>
+            
+            
             <SearchTab></SearchTab>
         </div>
     </div>

@@ -1,11 +1,14 @@
 <style scoped>
 .ctn{
     color:black;
+    width:10px;
+    display:flex;
+    justify-content: center;
+    place-items:center;
 }
 .desc{
     display:flex;
     flex-direction: row;
-
 }
 .dropdown-icon{
     display:flex;

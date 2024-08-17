@@ -7,7 +7,7 @@
     flex-direction:row;
 }
 .main-ctn input{
-    width:40vw;
+    width: 50vw;
     height:40px;
 }
 .search-icon{
