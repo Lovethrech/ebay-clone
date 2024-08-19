@@ -32,6 +32,7 @@ import SearchTab from "@/components/SearchTab.vue";
             
             
             <SearchTab></SearchTab>
+            <p>Advanced Search</p>
         </div>
     </div>
 </template>
