@@ -1,10 +1,11 @@
 <style scoped>
 .ctn{
+    width:100%;
     color:black;
-    width:10px;
     display:flex;
     justify-content: center;
     place-items:center;
+    margin-left:-40px;
 }
 .desc{
     display:flex;

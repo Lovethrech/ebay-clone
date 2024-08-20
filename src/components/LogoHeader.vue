@@ -2,6 +2,7 @@
 import LogoCtn from "@/components/LogoCtn.vue";
 import LogoShopTab from "@/components/LogoShopTab.vue";
 import SearchTab from "@/components/SearchTab.vue";
+import SearchBtn from "@/components/SearchBtn.vue";
 </script>
 
 <style scoped>
@@ -11,11 +12,16 @@ import SearchTab from "@/components/SearchTab.vue";
 .main-ctn{
     display:flex;
     flex-direction:row;
-    justify-content:space-around;
 }
 .logo-shop{
     display:flex;
-    gap:10px;
+    width:50px;
+}
+.main-ctn p{
+    display:flex;
+    justify-content: center;
+    place-items: center;
+    font-size:10px;
 }
 </style>
 
@@ -27,10 +33,9 @@ import SearchTab from "@/components/SearchTab.vue";
                     <LogoCtn></LogoCtn>
                 </RouterLink>
                 <LogoShopTab></LogoShopTab>    
-            </div>
-            
-            
+            </div>            
             <SearchTab></SearchTab>
+            <SearchBtn></SearchBtn>
             <p>Advanced Search</p>
         </div>
     </div>

@@ -1,13 +1,14 @@
 <style scoped>
 .ctn{
     padding: 0;
+    width:100%;
+    margin-left:30px;
 }
 .main-ctn, .desc{
     display:flex;
     flex-direction:row;
 }
 .main-ctn input{
-    width: 50vw;
     height:40px;
 }
 .search-icon{
@@ -15,7 +16,13 @@
     justify-content: center;
     place-items: center;
 }
+.search-icon i{
+    position:absolute;
+    top:68px;
+    left:21vw;
+}
 .main-ctn input{
+    width:100%;
     background-color:transparent;
     padding:0 28px;
     border-radius:20px;
