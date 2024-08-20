@@ -11,12 +11,11 @@ import SearchTab from "@/components/SearchTab.vue";
 .main-ctn{
     display:flex;
     flex-direction:row;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .logo-shop{
     display:flex;
-    justify-content: space-between;
-    gap:1px;
+    gap:10px;
 }
 </style>
 

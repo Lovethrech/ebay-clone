@@ -1,6 +1,6 @@
 <style scoped>
 .ctn{
-
+    padding: 0;
 }
 .main-ctn, .desc{
     display:flex;
@@ -14,7 +14,6 @@
     display:flex;
     justify-content: center;
     place-items: center;
-    margin-right:-24px;
 }
 .main-ctn input{
     background-color:transparent;
