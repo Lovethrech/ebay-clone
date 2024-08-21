@@ -1,6 +1,6 @@
 <style scoped>
 .ctn{
-    background-color: rgba(20, 20, 158, 0.425);
+    background-color: hsl(213.81, 100%, 49.41%);
     color:rgb(255, 255, 255);
     margin-left: -80px;
     display:flex;
